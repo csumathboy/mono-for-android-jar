@@ -1,0 +1,2 @@
+app.MainActivity;app.MainActivity
+Com.Umeng.Analytics.Onlineconfig.IUmengOnlineConfigureListenerImplementor;mono.com.umeng.analytics.onlineconfig.UmengOnlineConfigureListenerImplementor

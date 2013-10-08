@@ -1,0 +1,2587 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<api>
+<package name="com.umeng.analytics">
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum&lt;com.umeng.analytics.Gender&gt;" final="true" name="Gender" static="false" visibility="public">
+<method abstract="false" deprecated="not deprecated" final="false" name="valueOf" native="false" return="com.umeng.analytics.Gender" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="values" native="false" return="com.umeng.analytics.Gender[]" static="true" synchronized="false" visibility="public">
+</method>
+<field deprecated="not deprecated" final="true" name="Female" static="true" transient="false" type="com.umeng.analytics.Gender" type-generic-aware="com.umeng.analytics.Gender" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="Male" static="true" transient="false" type="com.umeng.analytics.Gender" type-generic-aware="com.umeng.analytics.Gender" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="Unknown" static="true" transient="false" type="com.umeng.analytics.Gender" type-generic-aware="com.umeng.analytics.Gender" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MobclickAgent" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="MobclickAgent" static="false" type="com.umeng.analytics.MobclickAgent" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="flush" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getConfigParams" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onError" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onError" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onEvent" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onEvent" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onEvent" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+<parameter name="p2" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onEvent" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+<parameter name="p2" type="java.lang.String">
+</parameter>
+<parameter name="p3" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onEvent" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+<parameter name="p2" type="java.util.HashMap&lt;java.lang.String, java.lang.String&gt;">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onEventBegin" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onEventBegin" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+<parameter name="p2" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onEventDuration" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+<parameter name="p2" type="java.lang.String">
+</parameter>
+<parameter name="p3" type="long">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onEventDuration" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+<parameter name="p2" type="java.util.HashMap&lt;java.lang.String, java.lang.String&gt;">
+</parameter>
+<parameter name="p3" type="long">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onEventDuration" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+<parameter name="p2" type="long">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onEventEnd" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onEventEnd" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+<parameter name="p2" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onKVEventBegin" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+<parameter name="p2" type="java.util.HashMap&lt;java.lang.String, java.lang.String&gt;">
+</parameter>
+<parameter name="p3" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onKVEventEnd" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+<parameter name="p2" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onKillProcess" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onPause" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onResume" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onResume" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+<parameter name="p2" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="openActivityDurationTrack" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="reportError" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="reportError" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="java.lang.Throwable">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setAge" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setAutoLocation" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setDebugMode" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setDefaultReportPolicy" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setEnableEventBuffer" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setGender" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="com.umeng.analytics.Gender">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setOnlineConfigureListener" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="com.umeng.analytics.onlineconfig.UmengOnlineConfigureListener">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setOpenGLContext" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="javax.microedition.khronos.opengles.GL10">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setSessionContinueMillis" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="long">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setUserID" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+<parameter name="p2" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setWrapper" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="updateOnlineConfig" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="updateOnlineConfig" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+<parameter name="p2" type="java.lang.String">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MobclickAgent.1" obfuscated="true" static="true" visibility=""/>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MobclickAgentJSInterface" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="MobclickAgentJSInterface" static="false" type="com.umeng.analytics.MobclickAgentJSInterface" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.webkit.WebView">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="MobclickAgentJSInterface" static="false" type="com.umeng.analytics.MobclickAgentJSInterface" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.webkit.WebView">
+</parameter>
+<parameter name="p2" type="android.webkit.WebChromeClient">
+</parameter>
+</constructor>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="android.webkit.WebChromeClient" extends-generic-aware="android.webkit.WebChromeClient" final="true" name="MobclickAgentJSInterface.a" obfuscated="true" static="false" visibility="">
+<constructor deprecated="not deprecated" final="false" name="MobclickAgentJSInterface.a" static="false" type="com.umeng.analytics.MobclickAgentJSInterface.a" visibility="public">
+<parameter name="p1" type="android.webkit.WebChromeClient">
+</parameter>
+</constructor>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ReportPolicy" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="ReportPolicy" static="false" type="com.umeng.analytics.ReportPolicy" visibility="public">
+</constructor>
+<field deprecated="not deprecated" final="true" name="BATCH_AT_LAUNCH" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="BATCH_BY_INTERVAL" static="true" transient="false" type="int" type-generic-aware="int" value="6" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DAILY" static="true" transient="false" type="int" type-generic-aware="int" value="4" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="a" obfuscated="true" static="false" visibility="">
+<implements name="java.lang.Thread.UncaughtExceptionHandler" name-generic-aware="java.lang.Thread.UncaughtExceptionHandler">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="a" static="false" type="com.umeng.analytics.a" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="uncaughtException" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.Thread">
+</parameter>
+<parameter name="p1" type="java.lang.Throwable">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="com.umeng.analytics.d" extends-generic-aware="com.umeng.analytics.d" final="false" name="b" obfuscated="true" static="false" visibility="">
+<method abstract="false" deprecated="not deprecated" final="false" name="b" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="java.lang.Throwable">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Thread" extends-generic-aware="java.lang.Thread" final="true" name="b.a" obfuscated="true" static="false" visibility=""/>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="c" obfuscated="true" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="c" static="false" type="com.umeng.analytics.c" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="true" visibility="public">
+<parameter name="p0" type="com.umeng.analytics.a.d">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="true" visibility="public">
+<parameter name="p0" type="com.umeng.analytics.a.h">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="true" visibility="public">
+<parameter name="p0" type="com.umeng.analytics.a.m">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="true" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+<parameter name="p2" type="java.lang.String">
+</parameter>
+<parameter name="p3" type="long">
+</parameter>
+<parameter name="p4" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="true" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+<parameter name="p2" type="java.util.HashMap&lt;java.lang.String, java.lang.String&gt;">
+</parameter>
+<parameter name="p3" type="long">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.util.HashMap&lt;java.lang.String, java.lang.String&gt;">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="b" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="b" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="b" native="false" return="long" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="c" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="c" native="false" return="java.util.HashMap&lt;java.lang.String, java.lang.String&gt;" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="d" native="false" return="org.json.JSONObject" static="false" synchronized="true" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="e" native="false" return="void" static="false" synchronized="true" visibility="public">
+</method>
+</class>
+<class abstract="true" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="d" obfuscated="true" static="false" visibility="public">
+<implements name="com.umeng.analytics.h" name-generic-aware="com.umeng.analytics.h">
+</implements>
+<implements name="com.umeng.analytics.onlineconfig.c" name-generic-aware="com.umeng.analytics.onlineconfig.c">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="d" static="false" type="com.umeng.analytics.d" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="true" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="long">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="e" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="f" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<field deprecated="not deprecated" final="true" name="c" static="false" transient="false" type="com.umeng.analytics.c" type-generic-aware="com.umeng.analytics.c" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="d" static="false" transient="false" type="com.umeng.analytics.a.f" type-generic-aware="com.umeng.analytics.a.f" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="e" static="false" transient="false" type="int" type-generic-aware="int" value="1" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="f" static="false" transient="false" type="int" type-generic-aware="int" value="2" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="g" static="false" transient="false" type="int" type-generic-aware="int" value="3" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="h" static="false" transient="false" type="int" type-generic-aware="int" value="4" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="i" static="false" transient="false" type="int" type-generic-aware="int" value="5" visibility="protected" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="d.a" obfuscated="true" static="false" visibility="">
+<implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="d.b" obfuscated="true" static="false" visibility="">
+<implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="org.json.JSONObject" extends-generic-aware="org.json.JSONObject" final="false" name="e" obfuscated="true" static="false" visibility=""/>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="f" obfuscated="true" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="f" static="false" type="com.umeng.analytics.f" visibility="public">
+</constructor>
+<field deprecated="not deprecated" final="true" name="A" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;umeng_net_report_policy&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="B" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;umeng_net_report_interval&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="C" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;umeng_last_config_time&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="D" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;umeng_local_report_policy&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="E" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;umeng_local_report_interval&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="F" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;last_report_time&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="G" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;report_interval&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="H" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;req_time&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="a" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;Android&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="b" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;Android&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="c" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;4.6.2&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="g" static="true" transient="false" type="long" type-generic-aware="long" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="h" static="true" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="i" static="true" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="j" static="true" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="q" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;MobclickAgent&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="s" static="true" transient="false" type="java.lang.String[]" type-generic-aware="java.lang.String[]" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="g" obfuscated="true" static="false" visibility="">
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+</class>
+<interface abstract="true" deprecated="not deprecated" final="false" name="h" obfuscated="true" static="false" visibility="">
+<method abstract="true" deprecated="not deprecated" final="false" name="b" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="java.lang.Throwable">
+</parameter>
+</method>
+</interface>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="i" obfuscated="true" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="i" static="false" type="com.umeng.analytics.i" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="b" native="false" return="android.content.SharedPreferences" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="c" native="false" return="android.content.SharedPreferences" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="e" native="false" return="android.content.SharedPreferences" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="i" native="false" return="int[]" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="j" obfuscated="true" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="j" static="false" type="com.umeng.analytics.j" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="j" static="false" type="com.umeng.analytics.j" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="java.lang.Long" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="com.umeng.analytics.j" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.Long">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="com.umeng.analytics.j" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="b" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+</package>
+<package name="com.umeng.analytics.a">
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="a" obfuscated="true" static="false" visibility="public">
+<implements name="com.umeng.analytics.a.g" name-generic-aware="com.umeng.analytics.a.g">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="a" static="false" type="com.umeng.analytics.a.a" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.util.HashMap&lt;java.lang.String, java.lang.String&gt;">
+</parameter>
+<parameter name="p2" type="long">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="a" static="false" type="com.umeng.analytics.a.a" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="org.json.JSONObject">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="b" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="org.json.JSONObject">
+</parameter>
+<exception name="JSONException" type="org.json.JSONException">
+</exception>
+</method>
+<field deprecated="not deprecated" final="true" name="a" static="false" transient="false" type="java.util.HashMap" type-generic-aware="java.util.HashMap&lt;java.lang.String, java.lang.String&gt;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="b" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="c" static="false" transient="false" type="long" type-generic-aware="long" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="d" static="false" transient="false" type="long" type-generic-aware="long" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="b" obfuscated="true" static="false" visibility="public">
+<implements name="com.umeng.analytics.a.g" name-generic-aware="com.umeng.analytics.a.g">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="b" static="false" type="com.umeng.analytics.a.b" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="com.umeng.analytics.a.a">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="b" static="false" type="com.umeng.analytics.a.b" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.umeng.analytics.a.b">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="org.json.JSONObject">
+</parameter>
+<exception name="Exception" type="java.lang.Exception">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="b" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="org.json.JSONObject">
+</parameter>
+<exception name="Exception" type="java.lang.Exception">
+</exception>
+</method>
+<field deprecated="not deprecated" final="false" name="a" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="b" static="false" transient="false" type="java.util.ArrayList" type-generic-aware="java.util.ArrayList&lt;com.umeng.analytics.a.a&gt;" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="org.json.JSONObject" extends-generic-aware="org.json.JSONObject" final="false" name="c" obfuscated="true" static="false" visibility=""/>
+<class abstract="false" deprecated="not deprecated" extends="com.umeng.analytics.a.n" extends-generic-aware="com.umeng.analytics.a.n" final="false" name="d" obfuscated="true" static="false" visibility="public">
+<implements name="com.umeng.analytics.a.g" name-generic-aware="com.umeng.analytics.a.g">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="d" static="false" type="com.umeng.analytics.a.d" visibility="public">
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="d" static="false" type="com.umeng.analytics.a.d" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="d" static="false" type="com.umeng.analytics.a.d" visibility="public">
+<parameter name="p0" type="java.lang.Throwable">
+</parameter>
+</constructor>
+<field deprecated="not deprecated" final="false" name="a" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="com.umeng.analytics.a.l" extends-generic-aware="com.umeng.analytics.a.l" final="false" name="e" obfuscated="true" static="false" visibility="public">
+<implements name="com.umeng.analytics.a.g" name-generic-aware="com.umeng.analytics.a.g">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="e" static="false" type="com.umeng.analytics.a.e" visibility="public">
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="e" static="false" type="com.umeng.analytics.a.e" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+<parameter name="p2" type="java.lang.String">
+</parameter>
+<parameter name="p3" type="int">
+</parameter>
+<parameter name="p4" type="long">
+</parameter>
+</constructor>
+<field deprecated="not deprecated" final="false" name="a" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="b" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="c" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="d" static="false" transient="false" type="long" type-generic-aware="long" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="f" obfuscated="true" static="false" visibility="public">
+<implements name="com.umeng.analytics.a.g" name-generic-aware="com.umeng.analytics.a.g">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="f" static="false" type="com.umeng.analytics.a.f" visibility="public">
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="f" static="false" type="com.umeng.analytics.a.f" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="java.lang.String...">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="org.json.JSONObject">
+</parameter>
+<exception name="Exception" type="java.lang.Exception">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="b" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="b" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="b" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="java.lang.String...">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="b" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="org.json.JSONObject">
+</parameter>
+<exception name="Exception" type="java.lang.Exception">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="c" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="d" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="e" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<field deprecated="not deprecated" final="false" name="A" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="B" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="C" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="D" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="E" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="F" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="a" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="b" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="c" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="d" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="e" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="f" static="false" transient="false" type="long" type-generic-aware="long" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="g" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="h" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="i" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="j" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="k" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="l" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="m" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="n" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="o" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="p" static="false" transient="false" type="long" type-generic-aware="long" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="q" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="r" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="s" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="t" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="u" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="v" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="w" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="x" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="y" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="z" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+</class>
+<interface abstract="true" deprecated="not deprecated" final="false" name="g" obfuscated="true" static="false" visibility="public">
+<method abstract="true" deprecated="not deprecated" final="false" name="a" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="org.json.JSONObject">
+</parameter>
+<exception name="Exception" type="java.lang.Exception">
+</exception>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="b" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="org.json.JSONObject">
+</parameter>
+<exception name="Exception" type="java.lang.Exception">
+</exception>
+</method>
+</interface>
+<class abstract="false" deprecated="not deprecated" extends="com.umeng.analytics.a.l" extends-generic-aware="com.umeng.analytics.a.l" final="false" name="h" obfuscated="true" static="false" visibility="public">
+<implements name="com.umeng.analytics.a.g" name-generic-aware="com.umeng.analytics.a.g">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="h" static="false" type="com.umeng.analytics.a.h" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="h" static="false" type="com.umeng.analytics.a.h" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.umeng.analytics.a.o">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="b" native="false" return="org.json.JSONObject" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="c" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="org.json.JSONObject">
+</parameter>
+<exception name="Exception" type="java.lang.Exception">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="d" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="org.json.JSONObject">
+</parameter>
+<exception name="Exception" type="java.lang.Exception">
+</exception>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="i" obfuscated="true" static="false" visibility="public">
+<implements name="com.umeng.analytics.a.g" name-generic-aware="com.umeng.analytics.a.g">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="i" static="false" type="com.umeng.analytics.a.i" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.umeng.analytics.a.b">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.umeng.analytics.a.d">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.umeng.analytics.a.e">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.umeng.analytics.a.h">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.umeng.analytics.a.i">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.umeng.analytics.a.m">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="com.umeng.analytics.a.a">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="org.json.JSONObject">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="b" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="b" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="org.json.JSONObject">
+</parameter>
+<exception name="Exception" type="java.lang.Exception">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="c" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<field deprecated="not deprecated" final="false" name="a" static="false" transient="false" type="java.util.ArrayList" type-generic-aware="java.util.ArrayList&lt;com.umeng.analytics.a.g&gt;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="b" static="false" transient="false" type="java.util.ArrayList" type-generic-aware="java.util.ArrayList&lt;com.umeng.analytics.a.g&gt;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="c" static="false" transient="false" type="java.util.ArrayList" type-generic-aware="java.util.ArrayList&lt;com.umeng.analytics.a.g&gt;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="d" static="false" transient="false" type="java.util.ArrayList" type-generic-aware="java.util.ArrayList&lt;com.umeng.analytics.a.g&gt;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="e" static="false" transient="false" type="java.util.ArrayList" type-generic-aware="java.util.ArrayList&lt;com.umeng.analytics.a.g&gt;" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="org.json.JSONObject" extends-generic-aware="org.json.JSONObject" final="false" name="j" obfuscated="true" static="false" visibility=""/>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="k" obfuscated="true" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="k" static="false" type="com.umeng.analytics.a.k" visibility="public">
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="k" static="false" type="com.umeng.analytics.a.k" visibility="public">
+<parameter name="p0" type="org.json.JSONArray">
+</parameter>
+</constructor>
+<field deprecated="not deprecated" final="false" name="a" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="b" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="com.umeng.analytics.a.n" extends-generic-aware="com.umeng.analytics.a.n" final="false" name="l" obfuscated="true" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="l" static="false" type="com.umeng.analytics.a.l" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<field deprecated="not deprecated" final="false" name="e" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="f" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;session_id&quot;" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="com.umeng.analytics.a.l" extends-generic-aware="com.umeng.analytics.a.l" final="false" name="m" obfuscated="true" static="false" visibility="public">
+<implements name="com.umeng.analytics.a.g" name-generic-aware="com.umeng.analytics.a.g">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="m" static="false" type="com.umeng.analytics.a.m" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="m" static="false" type="com.umeng.analytics.a.m" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="com.umeng.analytics.a.m" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="android.content.SharedPreferences.Editor" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.SharedPreferences">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+<parameter name="p2" type="long">
+</parameter>
+<parameter name="p3" type="long">
+</parameter>
+</method>
+<field deprecated="not deprecated" final="false" name="a" static="false" transient="false" type="com.umeng.analytics.a.o" type-generic-aware="com.umeng.analytics.a.o" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="b" static="false" transient="false" type="com.umeng.analytics.a.p" type-generic-aware="com.umeng.analytics.a.p" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="c" static="false" transient="false" type="long" type-generic-aware="long" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="n" obfuscated="true" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="n" static="false" type="com.umeng.analytics.a.n" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="org.json.JSONObject">
+</parameter>
+<exception name="Exception" type="java.lang.Exception">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="b" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="org.json.JSONObject">
+</parameter>
+<exception name="Exception" type="java.lang.Exception">
+</exception>
+</method>
+<field deprecated="not deprecated" final="false" name="g" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="h" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="i" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;date&quot;" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="j" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;time&quot;" visibility="protected" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="o" obfuscated="true" static="false" visibility="public">
+<implements name="com.umeng.analytics.a.g" name-generic-aware="com.umeng.analytics.a.g">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="o" static="false" type="com.umeng.analytics.a.o" visibility="public">
+<parameter name="p0" type="android.location.Location">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="o" static="false" type="com.umeng.analytics.a.o" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="com.umeng.analytics.a.o" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="android.content.SharedPreferences.Editor" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.content.SharedPreferences">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="org.json.JSONObject">
+</parameter>
+<exception name="JSONException" type="org.json.JSONException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="b" native="false" return="com.umeng.analytics.a.o" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="b" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="org.json.JSONObject">
+</parameter>
+<exception name="Exception" type="java.lang.Exception">
+</exception>
+</method>
+<field deprecated="not deprecated" final="false" name="a" static="false" transient="false" type="double" type-generic-aware="double" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="b" static="false" transient="false" type="double" type-generic-aware="double" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="c" static="false" transient="false" type="long" type-generic-aware="long" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="d" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;lng&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="e" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;lat&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="f" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;gps_time&quot;" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="p" obfuscated="true" static="false" visibility="public">
+<implements name="com.umeng.analytics.a.g" name-generic-aware="com.umeng.analytics.a.g">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="p" static="false" type="com.umeng.analytics.a.p" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="com.umeng.analytics.a.p" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="org.json.JSONObject">
+</parameter>
+<exception name="Exception" type="java.lang.Exception">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="b" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="org.json.JSONObject">
+</parameter>
+<exception name="Exception" type="java.lang.Exception">
+</exception>
+</method>
+<field deprecated="not deprecated" final="false" name="a" static="false" transient="false" type="long" type-generic-aware="long" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="b" static="false" transient="false" type="long" type-generic-aware="long" visibility="public" volatile="false">
+</field>
+</class>
+</package>
+<package name="com.umeng.analytics.onlineconfig">
+<interface abstract="true" deprecated="not deprecated" final="false" name="UmengOnlineConfigureListener" static="false" visibility="public">
+<method abstract="true" deprecated="not deprecated" final="false" name="onDataReceived" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="org.json.JSONObject">
+</parameter>
+</method>
+</interface>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="a" obfuscated="true" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="a" static="false" type="com.umeng.analytics.onlineconfig.a" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+<parameter name="p2" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.umeng.analytics.onlineconfig.UmengOnlineConfigureListener">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.umeng.analytics.onlineconfig.c">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="b" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="com.umeng.common.net.s" extends-generic-aware="com.umeng.common.net.s" final="false" name="a.a" obfuscated="true" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="a.a" static="false" type="com.umeng.analytics.onlineconfig.a.a" visibility="public">
+<parameter name="p1" type="org.json.JSONObject">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="org.json.JSONObject" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="b" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="com.umeng.common.net.r" extends-generic-aware="com.umeng.common.net.r" final="false" name="a.b" obfuscated="true" static="false" visibility="public">
+<implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="a.b" static="false" type="com.umeng.analytics.onlineconfig.a.b" visibility="public">
+<parameter name="p1" type="android.content.Context">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="com.umeng.common.net.t" extends-generic-aware="com.umeng.common.net.t" final="false" name="b" obfuscated="true" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="b" static="false" type="com.umeng.analytics.onlineconfig.b" visibility="public">
+<parameter name="p0" type="org.json.JSONObject">
+</parameter>
+</constructor>
+<field deprecated="not deprecated" final="false" name="a" static="false" transient="false" type="org.json.JSONObject" type-generic-aware="org.json.JSONObject" visibility="public" volatile="false">
+</field>
+</class>
+<interface abstract="true" deprecated="not deprecated" final="false" name="c" obfuscated="true" static="false" visibility="public">
+<method abstract="true" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="long">
+</parameter>
+</method>
+</interface>
+</package>
+<package name="com.umeng.common">
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="Log" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="Log" static="false" type="com.umeng.common.Log" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+<parameter name="p2" type="java.lang.Exception">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="b" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="b" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+<parameter name="p2" type="java.lang.Exception">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="c" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="c" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+<parameter name="p2" type="java.lang.Exception">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="d" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="d" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+<parameter name="p2" type="java.lang.Exception">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="e" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="e" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+<parameter name="p2" type="java.lang.Exception">
+</parameter>
+</method>
+<field deprecated="not deprecated" final="false" name="LOG" static="true" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="a" obfuscated="true" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="a" static="false" type="com.umeng.common.a" visibility="public">
+</constructor>
+<field deprecated="not deprecated" final="true" name="a" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;/download/.um&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="b" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;type&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="c" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;package&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="d" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;channel&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="e" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;idmd5&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="f" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;version_code&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="g" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;appkey&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="h" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;sdk_version&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="i" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;proto_ver&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="j" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;old_md5&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="k" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;delta&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="l" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot; \u4E0B\u8F7D\u5931\u8D25\u3002&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="m" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;\u6B63\u5728\u4E0B\u8F7D\u5E94\u7528&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="n" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;\u6B63\u5728\u4E0B\u8F7D\u4E2D\uFF0C\u8BF7\u7A0D\u7B49 ...&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="o" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;\u4E0B\u8F7D\u5B8C\u6210\uFF0C\u8BF7\u70B9\u51FB\u5B89\u88C5&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="p" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;\u66F4\u65B0\u5B8C\u6210\uFF0C\u8BF7\u70B9\u51FB\u5B89\u88C5&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="q" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;\u6B63\u5728\u66F4\u65B0\u5B89\u88C5\u5305&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="r" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="b" obfuscated="true" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="b" static="false" type="com.umeng.common.b" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="boolean" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="boolean" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="java.util.Date" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="boolean" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.util.Date">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="int" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.util.Date">
+</parameter>
+<parameter name="p1" type="java.util.Date">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="java.lang.String[]" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="javax.microedition.khronos.opengles.GL10">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="b" native="false" return="boolean" static="true" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="b" native="false" return="java.util.Set&lt;java.lang.String&gt;" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="c" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="c" native="false" return="boolean" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="d" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="e" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="f" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="g" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="h" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="i" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="j" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="k" native="false" return="java.lang.String[]" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="l" native="false" return="boolean" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="m" native="false" return="android.location.Location" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="n" native="false" return="boolean" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="o" native="false" return="int" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="p" native="false" return="java.lang.String[]" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="q" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="r" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="s" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="t" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="u" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="v" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="w" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="x" native="false" return="boolean" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<field deprecated="not deprecated" final="true" name="a" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="b" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;Unknown&quot;" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="c" static="true" transient="false" type="int" type-generic-aware="int" value="8" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="c" obfuscated="true" static="false" visibility="public">
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="com.umeng.common.c" static="true" synchronized="true" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="b" native="false" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="c" native="false" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="d" native="false" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="e" native="false" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="f" native="false" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="g" native="false" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="h" native="false" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+</class>
+</package>
+<package name="com.umeng.common.a">
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="a" obfuscated="true" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="a" static="false" type="com.umeng.common.a.a" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="int" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="b" native="false" return="int" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="c" native="false" return="int" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="d" native="false" return="int" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="e" native="false" return="int" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="f" native="false" return="int" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="g" native="false" return="int" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="h" native="false" return="int" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="b" obfuscated="true" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="b" static="false" type="com.umeng.common.a.b" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="int" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="c" obfuscated="true" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="c" static="false" type="com.umeng.common.a.c" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="int" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="b" native="false" return="int" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="c" native="false" return="int" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="d" native="false" return="int" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="e" native="false" return="int" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="f" native="false" return="int" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="g" native="false" return="int" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="h" native="false" return="int" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+</class>
+</package>
+<package name="com.umeng.common.net">
+<class abstract="false" deprecated="not deprecated" extends="android.app.Service" extends-generic-aware="android.app.Service" final="false" name="DownloadingService" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="DownloadingService" static="false" type="com.umeng.common.net.DownloadingService" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onBind" native="false" return="android.os.IBinder" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Intent">
+</parameter>
+</method>
+<field deprecated="not deprecated" final="true" name="e" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="f" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="g" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="h" static="true" transient="false" type="int" type-generic-aware="int" value="3" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="m" static="true" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false">
+</field>
+</class>
+<interface abstract="true" deprecated="not deprecated" final="false" name="DownloadingService.a" obfuscated="true" static="true" visibility="">
+<method abstract="true" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="java.lang.Exception">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</method>
+</interface>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Thread" extends-generic-aware="java.lang.Thread" final="false" name="DownloadingService.b" obfuscated="true" static="false" visibility="">
+<constructor deprecated="not deprecated" final="false" name="DownloadingService.b" static="false" type="com.umeng.common.net.DownloadingService.b" visibility="public">
+<parameter name="p1" type="android.content.Context">
+</parameter>
+<parameter name="p2" type="com.umeng.common.net.a.a">
+</parameter>
+<parameter name="p3" type="int">
+</parameter>
+<parameter name="p4" type="int">
+</parameter>
+<parameter name="p5" type="com.umeng.common.net.DownloadingService.a">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="android.os.Handler" extends-generic-aware="android.os.Handler" final="false" name="DownloadingService.c" obfuscated="true" static="false" visibility=""/>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="DownloadingService.d" obfuscated="true" static="true" visibility="">
+<constructor deprecated="not deprecated" final="false" name="DownloadingService.d" static="false" type="com.umeng.common.net.DownloadingService.d" visibility="public">
+<parameter name="p0" type="com.umeng.common.net.a.a">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="b" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="android.os.AsyncTask" extends-generic-aware="android.os.AsyncTask&lt;java.lang.String, java.lang.Void, java.lang.Integer&gt;" final="false" name="DownloadingService.e" obfuscated="true" static="false" visibility="">
+<constructor deprecated="not deprecated" final="false" name="DownloadingService.e" static="false" type="com.umeng.common.net.DownloadingService.e" visibility="public">
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="com.umeng.common.net.a.a">
+</parameter>
+<parameter name="p3" type="java.lang.String">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="java.lang.Integer">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="java.lang.Integer" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="java.lang.String...">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="doInBackground" native="false" return="java.lang.Object" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="java.lang.Object[]">
+</parameter>
+</method>
+<field deprecated="not deprecated" final="false" name="a" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="b" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="a" obfuscated="true" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="a" static="false" type="com.umeng.common.net.a" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+<parameter name="p2" type="java.lang.String">
+</parameter>
+<parameter name="p3" type="java.lang.String">
+</parameter>
+<parameter name="p4" type="com.umeng.common.net.k">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String[]">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="b" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="a.a" obfuscated="true" static="true" visibility="">
+<constructor deprecated="not deprecated" final="false" name="a.a" static="false" type="com.umeng.common.net.a.a" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+<parameter name="p2" type="java.lang.String">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="android.os.Bundle" static="false" synchronized="false" visibility="public">
+</method>
+<field deprecated="not deprecated" final="false" name="a" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="b" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="c" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="d" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="e" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="f" static="false" transient="false" type="java.lang.String[]" type-generic-aware="java.lang.String[]" value="null" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="g" static="false" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="android.os.Handler" extends-generic-aware="android.os.Handler" final="false" name="a.b" obfuscated="true" static="false" visibility=""/>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="b" obfuscated="true" static="false" visibility="">
+<implements name="android.content.ServiceConnection" name-generic-aware="android.content.ServiceConnection">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onServiceConnected" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.ComponentName">
+</parameter>
+<parameter name="p1" type="android.os.IBinder">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onServiceDisconnected" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.ComponentName">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="c" obfuscated="true" static="false" visibility="public">
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="com.umeng.common.net.c" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="java.util.List&lt;java.lang.String&gt;" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+<parameter name="p2" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="b" native="false" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="c" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="d" native="false" return="java.util.Date" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="e" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="finalize" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="c.1" obfuscated="true" static="true" visibility=""/>
+<class abstract="false" deprecated="not deprecated" extends="android.database.sqlite.SQLiteOpenHelper" extends-generic-aware="android.database.sqlite.SQLiteOpenHelper" final="false" name="c.a" obfuscated="true" static="false" visibility="">
+<method abstract="false" deprecated="not deprecated" final="false" name="onCreate" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.database.sqlite.SQLiteDatabase">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onUpgrade" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.database.sqlite.SQLiteDatabase">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="c.b" obfuscated="true" static="true" visibility="">
+<field deprecated="not deprecated" final="true" name="a" static="true" transient="false" type="com.umeng.common.net.c" type-generic-aware="com.umeng.common.net.c" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="android.os.Handler" extends-generic-aware="android.os.Handler" final="false" name="d" obfuscated="true" static="false" visibility=""/>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="e" obfuscated="true" static="false" visibility="">
+<implements name="com.umeng.common.net.DownloadingService.a" name-generic-aware="com.umeng.common.net.DownloadingService.a">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="java.lang.Exception">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="android.content.BroadcastReceiver" extends-generic-aware="android.content.BroadcastReceiver" final="false" name="f" obfuscated="true" static="false" visibility="">
+<method abstract="false" deprecated="not deprecated" final="false" name="onReceive" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.content.Intent">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="g" obfuscated="true" static="false" visibility="">
+<implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="h" obfuscated="true" static="false" visibility="">
+<implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="i" obfuscated="true" static="true" visibility="">
+<implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="j" obfuscated="true" static="false" visibility="">
+<implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<interface abstract="true" deprecated="not deprecated" final="false" name="k" obfuscated="true" static="false" visibility="public">
+<method abstract="true" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="java.lang.String">
+</parameter>
+</method>
+</interface>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="l" obfuscated="true" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="l" static="false" type="com.umeng.common.net.l" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="android.app.PendingIntent" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="b" native="false" return="android.app.PendingIntent" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</method>
+<field deprecated="not deprecated" final="true" name="a" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;pause&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="b" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;continue&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="c" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;cancel&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="d" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;com.umeng.intent.DOWNLOAD&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="e" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;com.umeng.broadcast.download.msg&quot;" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="com.umeng.common.net.r" extends-generic-aware="com.umeng.common.net.r" final="false" name="m" obfuscated="true" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="m" static="false" type="com.umeng.common.net.m" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="com.umeng.common.net.o.a" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.umeng.common.net.n">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.umeng.common.net.n">
+</parameter>
+<parameter name="p1" type="com.umeng.common.net.m.a">
+</parameter>
+</method>
+</class>
+<interface abstract="true" deprecated="not deprecated" final="false" name="m.a" obfuscated="true" static="true" visibility="public">
+<method abstract="true" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.umeng.common.net.o.a">
+</parameter>
+</method>
+</interface>
+<class abstract="false" deprecated="not deprecated" extends="android.os.AsyncTask" extends-generic-aware="android.os.AsyncTask&lt;java.lang.Integer, java.lang.Integer, com.umeng.common.net.o.a&gt;" final="false" name="m.b" obfuscated="true" static="false" visibility="">
+<constructor deprecated="not deprecated" final="false" name="m.b" static="false" type="com.umeng.common.net.m.b" visibility="public">
+<parameter name="p1" type="com.umeng.common.net.n">
+</parameter>
+<parameter name="p2" type="com.umeng.common.net.m.a">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="com.umeng.common.net.o.a">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="com.umeng.common.net.o.a" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="java.lang.Integer...">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="doInBackground" native="false" return="java.lang.Object" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="java.lang.Object[]">
+</parameter>
+</method>
+</class>
+<class abstract="true" deprecated="not deprecated" extends="com.umeng.common.net.s" extends-generic-aware="com.umeng.common.net.s" final="false" name="n" obfuscated="true" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="n" static="false" type="com.umeng.common.net.n" visibility="public">
+</constructor>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="com.umeng.common.net.t" extends-generic-aware="com.umeng.common.net.t" final="false" name="o" obfuscated="true" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="o" static="false" type="com.umeng.common.net.o" visibility="public">
+<parameter name="p0" type="org.json.JSONObject">
+</parameter>
+</constructor>
+<field deprecated="not deprecated" final="false" name="a" static="false" transient="false" type="com.umeng.common.net.o.a" type-generic-aware="com.umeng.common.net.o.a" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum&lt;com.umeng.common.net.o.a&gt;" final="true" name="o.a" obfuscated="true" static="true" visibility="public">
+<method abstract="false" deprecated="not deprecated" final="false" name="valueOf" native="false" return="com.umeng.common.net.o.a" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="values" native="false" return="com.umeng.common.net.o.a[]" static="true" synchronized="false" visibility="public">
+</method>
+<field deprecated="not deprecated" final="true" name="a" static="true" transient="false" type="com.umeng.common.net.o.a" type-generic-aware="com.umeng.common.net.o.a" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="b" static="true" transient="false" type="com.umeng.common.net.o.a" type-generic-aware="com.umeng.common.net.o.a" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="p" obfuscated="true" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="p" static="false" type="com.umeng.common.net.p" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.widget.ImageView">
+</parameter>
+<parameter name="p2" type="java.lang.String">
+</parameter>
+<parameter name="p3" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.widget.ImageView">
+</parameter>
+<parameter name="p2" type="java.lang.String">
+</parameter>
+<parameter name="p3" type="boolean">
+</parameter>
+<parameter name="p4" type="com.umeng.common.net.p.a">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.widget.ImageView">
+</parameter>
+<parameter name="p2" type="java.lang.String">
+</parameter>
+<parameter name="p3" type="boolean">
+</parameter>
+<parameter name="p4" type="com.umeng.common.net.p.a">
+</parameter>
+<parameter name="p5" type="android.view.animation.Animation">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.widget.ImageView">
+</parameter>
+<parameter name="p2" type="java.lang.String">
+</parameter>
+<parameter name="p3" type="boolean">
+</parameter>
+<parameter name="p4" type="com.umeng.common.net.p.a">
+</parameter>
+<parameter name="p5" type="android.view.animation.Animation">
+</parameter>
+<parameter name="p6" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="b" native="false" return="java.io.File" static="true" synchronized="false" visibility="protected">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+<exception name="IOException" type="java.io.IOException">
+</exception>
+</method>
+<field deprecated="not deprecated" final="false" name="a" static="true" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false">
+</field>
+</class>
+<interface abstract="true" deprecated="not deprecated" final="false" name="p.a" obfuscated="true" static="true" visibility="public">
+<method abstract="true" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.umeng.common.net.o.a">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.umeng.common.net.p.b">
+</parameter>
+</method>
+</interface>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum&lt;com.umeng.common.net.p.b&gt;" final="true" name="p.b" obfuscated="true" static="true" visibility="public">
+<method abstract="false" deprecated="not deprecated" final="false" name="valueOf" native="false" return="com.umeng.common.net.p.b" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="values" native="false" return="com.umeng.common.net.p.b[]" static="true" synchronized="false" visibility="public">
+</method>
+<field deprecated="not deprecated" final="true" name="a" static="true" transient="false" type="com.umeng.common.net.p.b" type-generic-aware="com.umeng.common.net.p.b" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="b" static="true" transient="false" type="com.umeng.common.net.p.b" type-generic-aware="com.umeng.common.net.p.b" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="android.os.AsyncTask" extends-generic-aware="android.os.AsyncTask&lt;java.lang.Object, java.lang.Integer, android.graphics.drawable.Drawable&gt;" final="false" name="p.c" obfuscated="true" static="true" visibility="">
+<constructor deprecated="not deprecated" final="false" name="p.c" static="false" type="com.umeng.common.net.p.c" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.widget.ImageView">
+</parameter>
+<parameter name="p2" type="java.lang.String">
+</parameter>
+<parameter name="p3" type="com.umeng.common.net.p.b">
+</parameter>
+<parameter name="p4" type="java.io.File">
+</parameter>
+<parameter name="p5" type="boolean">
+</parameter>
+<parameter name="p6" type="com.umeng.common.net.p.a">
+</parameter>
+<parameter name="p7" type="android.view.animation.Animation">
+</parameter>
+<parameter name="p8" type="boolean">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="android.graphics.drawable.Drawable">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="android.graphics.drawable.Drawable" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="java.lang.Object...">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="doInBackground" native="false" return="java.lang.Object" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="java.lang.Object[]">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="q" obfuscated="true" static="true" visibility="">
+<implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="r" obfuscated="true" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="r" static="false" type="com.umeng.common.net.r" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="T" static="false" synchronized="false" visibility="public">
+<typeParameters>
+<typeParameter name="T">
+<genericConstraints>
+<genericConstraint type="com.umeng.common.net.t"/>
+</genericConstraints>
+</typeParameter>
+</typeParameters>
+<parameter name="p0" type="com.umeng.common.net.s">
+</parameter>
+<parameter name="p1" type="java.lang.Class&lt;T&gt;">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="com.umeng.common.net.r" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.util.Map&lt;java.lang.String, java.lang.String&gt;">
+</parameter>
+</method>
+</class>
+<class abstract="true" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="s" obfuscated="true" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="s" static="false" type="com.umeng.common.net.s" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</constructor>
+<method abstract="true" deprecated="not deprecated" final="false" name="a" native="false" return="org.json.JSONObject" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="b" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="c" native="false" return="java.lang.String" static="false" synchronized="false" visibility="protected">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="d" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<field deprecated="not deprecated" final="false" name="b" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="c" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="d" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="protected" volatile="false">
+</field>
+</class>
+<class abstract="true" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="t" obfuscated="true" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="t" static="false" type="com.umeng.common.net.t" visibility="public">
+<parameter name="p0" type="org.json.JSONObject">
+</parameter>
+</constructor>
+</class>
+</package>
+<package name="com.umeng.common.util">
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="DeltaUpdate" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="DeltaUpdate" static="false" type="com.umeng.common.util.DeltaUpdate" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="boolean" static="true" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="int" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+<parameter name="p2" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="b" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="bspatch" native="true" return="int" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+<parameter name="p2" type="java.lang.String">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="a" obfuscated="true" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="a" static="false" type="com.umeng.common.util.a" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="byte[]">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="byte[]">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="byte[]" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="byte[]" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="b" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="byte[]">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="b" native="false" return="byte[]" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="c" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="byte[]">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="c" native="false" return="byte[]" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="d" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="byte[]">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="d" native="false" return="byte[]" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="e" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="byte[]">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="e" native="false" return="byte[]" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="f" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="byte[]">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="f" native="false" return="byte[]" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="b" obfuscated="true" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="b" static="false" type="com.umeng.common.util.b" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+<exception name="Exception" type="java.lang.Exception">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="b" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+<exception name="Exception" type="java.lang.Exception">
+</exception>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="com.umeng.common.util.d" extends-generic-aware="com.umeng.common.util.d" final="false" name="c" obfuscated="true" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="c" static="false" type="com.umeng.common.util.c" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="c" static="false" type="com.umeng.common.util.c" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="c" static="false" type="com.umeng.common.util.c" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="byte[]">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="c" static="false" type="com.umeng.common.util.c" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="byte[]">
+</parameter>
+<parameter name="p2" type="boolean">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="c" static="false" type="com.umeng.common.util.c" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="boolean" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="byte">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="boolean" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="byte[]">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="byte[]" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="byte[]">
+</parameter>
+<parameter name="p1" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="byte[]" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="byte[]">
+</parameter>
+<parameter name="p1" type="boolean">
+</parameter>
+<parameter name="p2" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="byte[]" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="byte[]">
+</parameter>
+<parameter name="p1" type="boolean">
+</parameter>
+<parameter name="p2" type="boolean">
+</parameter>
+<parameter name="p3" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="boolean" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="byte[]" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.math.BigInteger">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="b" native="false" return="boolean" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="byte">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="b" native="false" return="boolean" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="byte[]">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="b" native="false" return="byte[]" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="c" native="false" return="byte[]" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="byte[]">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="d" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="byte[]">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="e" native="false" return="byte[]" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="byte[]">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="f" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="byte[]">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="g" native="false" return="byte[]" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="byte[]">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="h" native="false" return="byte[]" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="byte[]">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="i" native="false" return="java.math.BigInteger" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="byte[]">
+</parameter>
+</method>
+</class>
+<class abstract="true" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="d" obfuscated="true" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="d" static="false" type="com.umeng.common.util.d" visibility="protected">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+<parameter name="p3" type="int">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="java.lang.Object" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.Object">
+</parameter>
+<exception name="Exception" type="java.lang.Exception">
+</exception>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="b" native="false" return="boolean" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="byte">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="b" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="byte[]">
+</parameter>
+<parameter name="p1" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="b" native="false" return="java.lang.Object" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.Object">
+</parameter>
+<exception name="Exception" type="java.lang.Exception">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="c" native="false" return="boolean" static="true" synchronized="false" visibility="protected">
+<parameter name="p0" type="byte">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="c" native="false" return="byte[]" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="d" native="false" return="int" static="false" synchronized="false" visibility="protected">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="d" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="j" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="byte[]">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="k" native="false" return="byte[]" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="byte[]">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="l" native="false" return="byte[]" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="byte[]">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="m" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="byte[]">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="n" native="false" return="boolean" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="byte[]">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="o" native="false" return="long" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="byte[]">
+</parameter>
+</method>
+<field deprecated="not deprecated" final="true" name="b" static="true" transient="false" type="int" type-generic-aware="int" value="76" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="c" static="true" transient="false" type="int" type-generic-aware="int" value="64" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="d" static="true" transient="false" type="int" type-generic-aware="int" value="255" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="e" static="true" transient="false" type="byte" type-generic-aware="byte" value="61" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="f" static="false" transient="false" type="byte" type-generic-aware="byte" value="61" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="g" static="false" transient="false" type="int" type-generic-aware="int" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="h" static="false" transient="false" type="byte[]" type-generic-aware="byte[]" value="null" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="i" static="false" transient="false" type="int" type-generic-aware="int" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="j" static="false" transient="false" type="boolean" type-generic-aware="boolean" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="k" static="false" transient="false" type="int" type-generic-aware="int" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="l" static="false" transient="false" type="int" type-generic-aware="int" visibility="protected" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="e" obfuscated="true" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="e" static="false" type="com.umeng.common.util.e" visibility="public">
+</constructor>
+<field deprecated="not deprecated" final="true" name="a" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;ISO-8859-1&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="b" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;US-ASCII&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="c" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;UTF-16&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="d" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;UTF-16BE&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="e" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;UTF-16LE&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="f" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;UTF-8&quot;" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="f" obfuscated="true" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="f" static="false" type="com.umeng.common.util.f" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="byte[]">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+<exception name="DataFormatException" type="java.util.zip.DataFormatException">
+</exception>
+<exception name="UnsupportedEncodingException" type="java.io.UnsupportedEncodingException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="byte[]" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+<exception name="IOException" type="java.io.IOException">
+</exception>
+</method>
+<field deprecated="not deprecated" final="false" name="a" static="true" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="g" obfuscated="true" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="g" static="false" type="com.umeng.common.util.g" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="long">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.io.File">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.util.Date">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="b" native="false" return="boolean" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="b" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="c" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="d" native="false" return="boolean" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="e" native="false" return="boolean" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<field deprecated="not deprecated" final="true" name="a" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="h" obfuscated="true" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="h" static="false" type="com.umeng.common.util.h" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.util.Map&lt;java.lang.String, java.lang.Object&gt;">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="i" obfuscated="true" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="i" static="false" type="com.umeng.common.util.i" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="a" native="false" return="int" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="b" native="false" return="int" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="c" native="false" return="int" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="d" native="false" return="int" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+</method>
+</class>
+</package>
+</api>

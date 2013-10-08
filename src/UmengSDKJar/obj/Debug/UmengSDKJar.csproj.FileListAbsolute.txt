@@ -1,0 +1,4 @@
+E:\github\mono-for-android-addjar\UmengSDKJar\UmengSDKJar\bin\Debug\UmengSDKJar.dll
+E:\github\mono-for-android-addjar\UmengSDKJar\UmengSDKJar\bin\Debug\UmengSDKJar.pdb
+E:\github\mono-for-android-addjar\UmengSDKJar\UmengSDKJar\obj\Debug\UmengSDKJar.dll
+E:\github\mono-for-android-addjar\UmengSDKJar\UmengSDKJar\obj\Debug\UmengSDKJar.pdb

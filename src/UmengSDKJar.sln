@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UmengSDKJar", "UmengSDKJar\UmengSDKJar.csproj", "{796A1193-D222-4568-8FA0-FA9D0ABD3CF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "app", "app\app.csproj", "{CCF8A506-AD2B-4861-BC71-8F806DAD3429}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{796A1193-D222-4568-8FA0-FA9D0ABD3CF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{796A1193-D222-4568-8FA0-FA9D0ABD3CF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{796A1193-D222-4568-8FA0-FA9D0ABD3CF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{796A1193-D222-4568-8FA0-FA9D0ABD3CF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCF8A506-AD2B-4861-BC71-8F806DAD3429}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCF8A506-AD2B-4861-BC71-8F806DAD3429}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCF8A506-AD2B-4861-BC71-8F806DAD3429}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCF8A506-AD2B-4861-BC71-8F806DAD3429}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = app\app.csproj
+	EndGlobalSection
+EndGlobal

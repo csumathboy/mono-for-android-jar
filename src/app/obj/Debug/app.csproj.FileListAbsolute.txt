@@ -1,0 +1,17 @@
+E:\github\mono-for-android-addjar\UmengSDKJar\app\bin\Debug\app.dll
+E:\github\mono-for-android-addjar\UmengSDKJar\app\bin\Debug\app.pdb
+E:\github\mono-for-android-addjar\UmengSDKJar\app\bin\Debug\app.dll.mdb
+E:\github\mono-for-android-addjar\UmengSDKJar\app\bin\Debug\app.app.apk
+E:\github\mono-for-android-addjar\UmengSDKJar\app\bin\Debug\app.app-Signed.apk
+E:\github\mono-for-android-addjar\UmengSDKJar\app\bin\Debug\UmengSDKJar.dll
+E:\github\mono-for-android-addjar\UmengSDKJar\app\bin\Debug\UmengSDKJar.pdb
+E:\github\mono-for-android-addjar\UmengSDKJar\app\obj\Debug\app.csprojResolveAssemblyReference.cache
+E:\github\mono-for-android-addjar\UmengSDKJar\app\obj\Debug\app.dll
+E:\github\mono-for-android-addjar\UmengSDKJar\app\obj\Debug\app.pdb
+E:\github\mono-for-android-addjar\UmengSDKJar\app\obj\Debug\android\bin\app.app.apk
+E:\github\mono-for-android-addjar\UmengSDKJar\app\obj\Debug\res\layout\main.xml
+E:\github\mono-for-android-addjar\UmengSDKJar\app\obj\Debug\res\values\strings.xml
+E:\github\mono-for-android-addjar\UmengSDKJar\app\obj\Debug\res\drawable\icon.png
+E:\github\mono-for-android-addjar\UmengSDKJar\app\obj\Debug\R.cs.flag
+E:\github\mono-for-android-addjar\UmengSDKJar\app\obj\Debug\uploadflags.txt
+E:\github\mono-for-android-addjar\UmengSDKJar\app\bin\Debug\UmengSDKJar.dll.mdb
